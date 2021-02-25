@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './app';
+import { createMemoryHistory } from 'history';
+
 const mount = (el) => {
-  ReactDOM.render(<App />, el);
+  const history = createMemoryHistory();
+  ReactDOM.render(<App history={history} />, el);
 };
 
 if (process.env.NODE_ENV === 'development') {
