@@ -1,6 +1,12 @@
 # micro-frontend-app
 
-This is reference implementation of Micro-frontend Architeture. This is achieved using Run-Time Integration between app which was achieved with help of Webpack Module Federation. I have addressed various concerns like - Handling Shared Modules/Dependencies - Implementing Centralized container app to render required Apps based on user-interaction - Handling CSS across various App by using CSS Scoping - Implementing Routing & Enabling Route Integration B/w Container and MF Apps - Improving Load Times through various Optimization Techniques - Handling Authentication & communicating Auth State to various Apps
+This is reference implementation of Micro-frontend Architeture. This is achieved using Run-Time Integration between app which was achieved with help of Webpack Module Federation. I have addressed various concerns like:
+    >>Handling Shared Modules/Dependencies 
+    >>Implementing Centralized container app to render required Apps based on user-interaction 
+    >>Handling CSS across various App by using CSS Scoping 
+    >>Implementing Routing & Enabling Route Integration B/w Container and MF Apps 
+    >>Improving Load Times through various Optimization Techniques
+    >>Handling Authentication & communicating Auth State to various Apps
 
 ![Alt text](https://github.com/AbhishekGautam01/micro-frontend/blob/main/.idea/1.PNG?raw=true)
 
