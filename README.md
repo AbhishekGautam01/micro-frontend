@@ -7,7 +7,7 @@ This is reference implementation of Micro-frontend Architeture. This is achieved
 	- Improving Load Times through various Optimization Techniques
 	- Handling Authentication & communicating Auth State to various Apps
 
-![Alt text](./.idea/1.png?raw=true "OverView")
+![Alt text](https://ibb.co/3vvKFXQ)
 
 Please note I have used mono-repo but we could seperate our apps into seperate repos, it will have no effect on our App. 
 Also these App are configured to run in both Isolation and Integrated manner. 
